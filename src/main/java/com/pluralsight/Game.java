@@ -24,6 +24,6 @@ public class Game {
         else {
             System.out.println("Winner " + teams[1]);
         }
-
+        myObj.close();
     }
 }
